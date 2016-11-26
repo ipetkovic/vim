@@ -90,6 +90,7 @@ let g:ycm_confirm_extra_conf = 0
 map <Leader>cj <esc>:YcmCompleter GoTo<CR>
 map <Leader>cJ <esc>:YcmCompleter GoToDeclaration<CR>
 map <Leader>cf <esc>:YcmCompleter GoToReferences<CR>
+map <Leader>cq <esc>:YcmCompleter FixIt<CR>
 map <Leader>cd <esc>:YcmDiags<CR>
 map <Leader>ce <esc>:YcmDebugInfo<CR>
 map <Leader>cl <esc>:YcmToggleLogs<CR>
