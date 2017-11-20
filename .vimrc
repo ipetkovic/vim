@@ -15,10 +15,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Valloric/YouCompleteMe.git'
-Plugin 'rdnetto/YCM-Generator.git'
 Plugin 'lyuts/vim-rtags'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,7 +39,7 @@ filetype plugin indent on    " required
 " General settings
 " -----------------------------------------------------------------------
 " set syntax highlighting
-syntax on                   
+syntax on
 " show line numbers
 set number
 " shifting size using << and >>
@@ -53,6 +54,10 @@ set splitbelow
 set relativenumber
 
 set diffopt+=vertical
+
+" let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
 " -----------------------------------------------------------------------
 
 " replace current with next line
