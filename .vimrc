@@ -20,6 +20,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'lifepillar/vim-solarized8.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,8 +57,9 @@ set relativenumber
 set diffopt+=vertical
 
 " let g:solarized_termcolors=256
+set termguicolors
 set background=dark
-colorscheme solarized
+colorscheme solarized8
 " -----------------------------------------------------------------------
 
 " replace current with next line
