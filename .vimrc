@@ -58,8 +58,10 @@ set diffopt+=vertical
 
 " let g:solarized_termcolors=256
 set termguicolors
+let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized8
+
 " -----------------------------------------------------------------------
 
 " replace current with next line
@@ -131,3 +133,5 @@ if has("win32")
 endif
 
 nnoremap <space> <NOP>
+
+highlight NonText ctermbg=none
