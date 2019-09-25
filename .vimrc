@@ -56,8 +56,9 @@ set relativenumber
 
 set diffopt+=vertical
 
+let g:solarized_termtrans = 1
 " let g:solarized_termcolors=256
-set termguicolors
+" set termguicolors
 set background=dark
 colorscheme solarized8
 " -----------------------------------------------------------------------
